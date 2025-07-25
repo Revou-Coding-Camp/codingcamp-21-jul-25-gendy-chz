@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  
+}
+
+.todo-list-container {
+  background-color: #1f2937;
+  padding: 30px;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+h1 {
+  text-align: center;
+  color: #a5b4fc;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: black;
+  color: #bcbcf2;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: black;
+  border-radius: 5px;
+  color:#bcbcf2;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.no-task {
+  text-align: center;
+  color: #bcbcf2;
+}
